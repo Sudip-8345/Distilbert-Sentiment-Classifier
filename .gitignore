@@ -1,0 +1,51 @@
+# ----------------
+# Python ignores
+# ----------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.dll
+
+# Virtual environment
+myenv/
+env/
+.myenv/
+
+# Jupyter & cache
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.pickle
+*.pkl
+*.joblib
+*.h5
+*.log
+
+# ----------------
+# VS Code ignores
+# ----------------
+.vscode/
+.history/
+*.code-workspace
+
+# ----------------
+# OS specific
+# ----------------
+.DS_Store
+Thumbs.db
+
+# ----------------
+# HuggingFace/Model files (large binaries)
+# ----------------
+# Keep config/tokenizer small files, ignore large weight files
+*.bin
+*.h5
+*.ckpt
+*.safetensors
+
+# If you want to keep only your final trained model folder:
+# !distilbert-trip-sentiment-best/config.json
+# !distilbert-trip-sentiment-best/tokenizer.json
+# !distilbert-trip-sentiment-best/vocab.txt
+# !distilbert-trip-sentiment-best/special_tokens_map.json
